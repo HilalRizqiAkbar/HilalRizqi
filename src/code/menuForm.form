@@ -232,6 +232,7 @@
                     <item value="Cuci Kiloan"/>
                     <item value="Cuci Gosok"/>
                     <item value="Cuci Karpet"/>
+                    <item value="cuci express"/>
                   </model>
                 </properties>
               </component>
