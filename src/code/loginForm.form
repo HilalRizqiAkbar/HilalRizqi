@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="code.loginForm">
+  <grid id="27dc6" binding="panels" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="19" width="803" height="490"/>
+    </constraints>
+    <properties>
+      <background color="-9579521"/>
+      <doubleBuffered value="false"/>
+      <focusable value="false"/>
+      <font name="Century" size="16"/>
+      <minimumSize width="425" height="279"/>
+      <preferredSize width="1500" height="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="ae452" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="20" bottom="20" right="20"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="48733" class="javax.swing.JLabel" binding="loginBanner">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Roboto" size="36" style="1"/>
+              <foreground color="-2319405"/>
+              <text value="Login Form"/>
+            </properties>
+          </component>
+          <component id="43b16" class="javax.swing.JPasswordField" binding="passwordField">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="27"/>
+                <maximum-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <focusable value="true"/>
+            </properties>
+          </component>
+          <component id="5f8" class="javax.swing.JButton" binding="backButton">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3383911"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <focusPainted value="true"/>
+              <focusable value="false"/>
+              <font name="Roboto" size="16"/>
+              <foreground color="-3383911"/>
+              <label value="Dont have an account? Sign Up"/>
+              <opaque value="false"/>
+              <text value="Dont have an account? Sign Up"/>
+            </properties>
+          </component>
+          <component id="8943c" class="javax.swing.JTextField" binding="usernameField">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="27"/>
+                <maximum-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <focusable value="true"/>
+            </properties>
+          </component>
+          <component id="b0357" class="javax.swing.JLabel" binding="passwordLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto" size="16"/>
+              <text value="Password"/>
+            </properties>
+          </component>
+          <component id="636be" class="javax.swing.JLabel" binding="usernameLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto" size="16"/>
+              <text value="Username"/>
+            </properties>
+          </component>
+          <component id="2a4ff" class="javax.swing.JButton" binding="signInButton">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="27"/>
+                <maximum-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3383911"/>
+              <focusable value="false"/>
+              <font name="Roboto" size="16"/>
+              <foreground color="-1"/>
+              <label value="Login"/>
+              <margin top="10" left="0" bottom="10" right="0"/>
+              <text value="Login"/>
+            </properties>
+          </component>
+          <component id="47d0f" class="javax.swing.JLabel" binding="chooserLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto" size="16"/>
+              <text value="Login as"/>
+            </properties>
+          </component>
+          <component id="4dd46" class="javax.swing.JComboBox" binding="chooseLabel">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="27"/>
+                <maximum-size width="-1" height="45"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <focusable value="false"/>
+              <font name="Century"/>
+              <opaque value="true"/>
+              <popupVisible value="false"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a248d" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9579521"/>
+        </properties>
+        <border type="empty">
+          <size top="15" left="0" bottom="0" right="0"/>
+        </border>
+        <children>
+          <component id="6ac15" class="javax.swing.JLabel" binding="authImage">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e76a5" class="javax.swing.JLabel">
+            <constraints border-constraint="North"/>
+            <properties>
+              <font name="MV Boli" size="26" style="1"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="LaundryKu"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
